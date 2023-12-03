@@ -1,0 +1,10 @@
+2023-12-02 23:35:30.676 [info] [Info  - 11:35:30 PM] (42122) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-12-02 23:35:30.677 [info] [Info  - 11:35:30 PM] (42122) Server root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2023-12-02 23:35:30.685 [info] [Info  - 11:35:30 PM] (42122) Starting service instance "ubuntu"
+2023-12-02 23:35:30.805 [info] [Info  - 11:35:30 PM] (42122) Setting pythonPath for service "ubuntu": "/usr/bin/python3"
+2023-12-02 23:35:30.806 [info] [Info  - 11:35:30 PM] (42122) Setting environmentName for service "ubuntu": "3.10.12 (global)"
+2023-12-02 23:35:30.847 [info] [Info  - 11:35:30 PM] (42122) Assuming Python version 3.10
+2023-12-02 23:35:30.924 [info] [Info  - 11:35:30 PM] (42122) Auto-excluding /home/ubuntu/Airflow_warehouse/endtoendyoutube_venv
+2023-12-02 23:35:30.954 [info] [Info  - 11:35:30 PM] (42122) Found 1 source file
+2023-12-02 23:35:37.392 [info] [Info  - 11:35:37 PM] (42122) [BG(1)] Long operation: checking: /home/ubuntu/airflow/dags (4507ms)
+2023-12-02 23:35:37.393 [info] [Info  - 11:35:37 PM] (42122) [BG(1)] Long operation: analyzing: /home/ubuntu/airflow/dags (5232ms)

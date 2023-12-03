@@ -1,0 +1,39 @@
+2023-12-03 18:46:13.047 [info] Log level: Info
+2023-12-03 18:46:13.047 [info] Validating found git in: "git"
+2023-12-03 18:46:13.047 [info] Using git "2.34.1" from "git"
+2023-12-03 18:46:13.047 [info] > git rev-parse --show-toplevel [7ms]
+2023-12-03 18:46:13.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 18:46:13.047 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-03 18:46:13.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 18:46:13.048 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-03 18:46:13.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 18:46:13.048 [info] > git rev-parse --show-toplevel [532ms]
+2023-12-03 18:46:13.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 18:46:13.048 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-03 18:46:13.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 18:46:13.048 [info] > git rev-parse --show-toplevel [22ms]
+2023-12-03 18:46:13.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 18:46:13.049 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-03 18:46:13.049 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 18:46:13.049 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-03 18:46:13.049 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 19:04:20.051 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-03 19:04:20.063 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-12-03 19:04:20.090 [info] Open repository: /home/ubuntu
+2023-12-03 19:04:20.115 [info] No remotes found in the git config file.
+2023-12-03 19:04:20.116 [info] > git config --get commit.template [14ms]
+2023-12-03 19:04:20.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-12-03 19:04:20.168 [info] > git fetch [77ms]
+2023-12-03 19:04:20.191 [info] > git status -z -uall [64ms] (cancelled)
+2023-12-03 19:04:20.193 [info] > git config --get commit.template [2ms]
+2023-12-03 19:04:20.194 [info] > git config --get commit.template [10ms]
+2023-12-03 19:04:20.202 [info] No remotes found in the git config file.
+2023-12-03 19:04:20.209 [info] No remotes found in the git config file.
+2023-12-03 19:04:20.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-03 19:04:20.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2023-12-03 19:04:20.390 [info] > git status -z -uall [171ms] (cancelled)
+2023-12-03 19:04:20.958 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-03 19:04:21.067 [info] > git show --textconv :airflow/dags [11ms]
+2023-12-03 19:04:21.069 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags [3ms]
+2023-12-03 19:04:21.936 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags [1ms]
+2023-12-03 19:04:22.237 [info] > git show --textconv :airflow/dags [1ms]

@@ -1,0 +1,26 @@
+[2023-12-03T00:19:54.558+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zillow_analytics_dag.tsk_transfer_s3_to_redshift manual__2023-12-03T00:19:38.244758+00:00 [queued]>
+[2023-12-03T00:19:54.566+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zillow_analytics_dag.tsk_transfer_s3_to_redshift manual__2023-12-03T00:19:38.244758+00:00 [queued]>
+[2023-12-03T00:19:54.566+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-03T00:19:54.581+0000] {taskinstance.py:1382} INFO - Executing <Task(S3ToRedshiftOperator): tsk_transfer_s3_to_redshift> on 2023-12-03 00:19:38.244758+00:00
+[2023-12-03T00:19:54.585+0000] {standard_task_runner.py:57} INFO - Started process 43711 to run task
+[2023-12-03T00:19:54.588+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'zillow_analytics_dag', 'tsk_transfer_s3_to_redshift', 'manual__2023-12-03T00:19:38.244758+00:00', '--job-id', '116', '--raw', '--subdir', '/home/ubuntu/airflow/dags', '--cfg-path', '/tmp/tmps6u64dkl']
+[2023-12-03T00:19:54.589+0000] {standard_task_runner.py:85} INFO - Job 116: Subtask tsk_transfer_s3_to_redshift
+[2023-12-03T00:19:54.624+0000] {task_command.py:416} INFO - Running <TaskInstance: zillow_analytics_dag.tsk_transfer_s3_to_redshift manual__2023-12-03T00:19:38.244758+00:00 [running]> on host ip-172-31-24-255.us-west-2.compute.internal
+[2023-12-03T00:19:54.695+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='myemail@domain.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zillow_analytics_dag' AIRFLOW_CTX_TASK_ID='tsk_transfer_s3_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2023-12-03T00:19:38.244758+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-03T00:19:38.244758+00:00'
+[2023-12-03T00:19:54.700+0000] {base.py:73} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2023-12-03T00:19:54.702+0000] {base.py:73} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2023-12-03T00:19:54.703+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='aws_s3_conn', conn_type='aws') credentials retrieved from login and password.
+[2023-12-03T00:19:54.714+0000] {s3_to_redshift.py:192} INFO - Executing COPY command...
+[2023-12-03T00:19:54.717+0000] {base.py:73} INFO - Using connection ID 'conn_id_redshift' for task execution.
+[2023-12-03T00:19:55.567+0000] {sql.py:418} INFO - Running statement: 
+                    COPY PUBLIC.zillowdata 
+                    FROM 's3://myawsbucket-new/response_data_03122023001940.csv'
+                    credentials
+                    'aws_access_key_id=AKIA3DHIOLRUR45NCZ37;aws_secret_access_key=***'
+                    
+                    csv IGNOREHEADER 1;
+        , parameters: None
+[2023-12-03T00:19:56.669+0000] {s3_to_redshift.py:197} INFO - COPY command complete...
+[2023-12-03T00:19:56.674+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=zillow_analytics_dag, task_id=tsk_transfer_s3_to_redshift, execution_date=20231203T001938, start_date=20231203T001954, end_date=20231203T001956
+[2023-12-03T00:19:56.728+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-03T00:19:56.740+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

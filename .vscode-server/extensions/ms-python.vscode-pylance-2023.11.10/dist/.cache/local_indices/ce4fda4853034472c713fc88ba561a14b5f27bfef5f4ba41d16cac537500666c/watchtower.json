@@ -1,0 +1,1 @@
+[["/home/ubuntu/.local/lib/python3.10/site-packages/watchtower/__init__.py",[false,[["DEFAULT_LOG_STREAM_NAME",true,14,null],["_json_serialize_default",true,12,null],["_boto_debug_filter",true,12,null],["_boto_filter",true,12,null],["WatchtowerWarning",true,5,null],["WatchtowerError",true,5,null],["CloudWatchLogFormatter",true,5,null],["CloudWatchLogHandler",true,5,null]]]]]

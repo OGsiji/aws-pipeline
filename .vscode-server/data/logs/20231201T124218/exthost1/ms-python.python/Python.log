@@ -1,0 +1,59 @@
+2023-12-01 14:22:18.977 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-01 14:22:18.977 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-01 14:22:18.977 [info] Experiment 'pythonTestAdapter' is active
+2023-12-01 14:22:19.034 [info] Default formatter is set to null for workspace /home/ubuntu
+2023-12-01 14:22:19.532 [info] Test server listening.
+2023-12-01 14:22:19.535 [warning] Failed to check if /usr/local/bin/python3.12 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3.12'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3.12'
+}
+2023-12-01 14:22:19.566 [info] > /usr/local/bin/python3.12 -I ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-12-01 14:22:19.570 [error] [Error: Command failed: /usr/local/bin/python3.12 -I /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3.12: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3.12 -I /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py'
+}
+2023-12-01 14:22:20.385 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key autoSelectedWorkspacePythonInterpreter-/home/ubuntu
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key autoSelectedWorkspacePythonInterpreter-/home/ubuntu
+2023-12-01 14:22:20.872 [warning] Retry failed, storage update failed for key autoSelectedWorkspacePythonInterpreter-/home/ubuntu
+2023-12-01 14:22:21.902 [info] > /usr/local/bin/python3.12 -I ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-12-01 14:22:21.926 [error] [Error: Command failed: /usr/local/bin/python3.12 -I /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3.12: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3.12 -I /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py'
+}
+2023-12-01 14:22:21.932 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-01 14:22:21.944 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-12-01 14:22:22.283 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:22.283 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 14:22:23.394 [info] Python interpreter path: /usr/bin/python3
+2023-12-01 14:22:23.947 [info] Starting Pylance language server.

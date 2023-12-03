@@ -1,0 +1,126 @@
+[2023-11-28T10:37:52.166+0000] {processor.py:157} INFO - Started process (PID=22936) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:37:52.167+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:37:52.168+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:37:52.168+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:37:52.169+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:37:52.169+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:37:52.170+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:37:52.180+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.017 seconds
+[2023-11-28T10:38:23.124+0000] {processor.py:157} INFO - Started process (PID=22937) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:38:23.126+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:38:23.127+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:38:23.126+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:38:23.128+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:38:23.128+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:38:23.128+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:38:23.139+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.019 seconds
+[2023-11-28T10:38:53.473+0000] {processor.py:157} INFO - Started process (PID=22938) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:38:53.474+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:38:53.474+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:38:53.474+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:38:53.476+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:38:53.476+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:38:53.477+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:38:53.487+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:39:23.585+0000] {processor.py:157} INFO - Started process (PID=22940) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:39:23.587+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:39:23.588+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:39:23.587+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:39:23.589+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:39:23.589+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:39:23.589+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:39:23.601+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.019 seconds
+[2023-11-28T10:39:53.744+0000] {processor.py:157} INFO - Started process (PID=22943) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:39:53.746+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:39:53.747+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:39:53.746+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:39:53.748+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:39:53.748+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:39:53.748+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:39:53.760+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.019 seconds
+[2023-11-28T10:40:23.918+0000] {processor.py:157} INFO - Started process (PID=22944) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:40:23.919+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:40:23.920+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:40:23.920+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:40:23.922+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:40:23.921+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:40:23.922+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:40:23.933+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:40:54.094+0000] {processor.py:157} INFO - Started process (PID=22946) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:40:54.096+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:40:54.097+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:40:54.097+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:40:54.098+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:40:54.098+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:40:54.099+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:40:54.110+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.019 seconds
+[2023-11-28T10:41:24.268+0000] {processor.py:157} INFO - Started process (PID=22951) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:41:24.269+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:41:24.270+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:41:24.270+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:41:24.272+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:41:24.272+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:41:24.272+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:41:24.282+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:41:54.442+0000] {processor.py:157} INFO - Started process (PID=22953) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:41:54.443+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:41:54.444+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:41:54.443+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:41:54.445+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:41:54.445+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:41:54.446+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:41:54.456+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.017 seconds
+[2023-11-28T10:42:24.615+0000] {processor.py:157} INFO - Started process (PID=22955) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:42:24.617+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:42:24.618+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:42:24.617+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:42:24.619+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:42:24.619+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:42:24.619+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:42:24.630+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:42:54.788+0000] {processor.py:157} INFO - Started process (PID=22956) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:42:54.788+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:42:54.789+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:42:54.789+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:42:54.791+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:42:54.791+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:42:54.791+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:42:54.801+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.017 seconds
+[2023-11-28T10:43:24.959+0000] {processor.py:157} INFO - Started process (PID=22957) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:43:24.961+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:43:24.962+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:43:24.962+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:43:24.963+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:43:24.963+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:43:24.964+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:43:24.975+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.019 seconds
+[2023-11-28T10:43:55.136+0000] {processor.py:157} INFO - Started process (PID=23072) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:43:55.138+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:43:55.139+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:43:55.138+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:43:55.140+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:43:55.140+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:43:55.140+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:43:55.152+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.019 seconds
+[2023-11-28T10:44:25.308+0000] {processor.py:157} INFO - Started process (PID=23073) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:44:25.309+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:44:25.310+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:44:25.310+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:44:25.312+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:44:25.312+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:44:25.312+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:44:25.323+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:44:55.479+0000] {processor.py:157} INFO - Started process (PID=23076) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:44:55.481+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:44:55.482+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:44:55.481+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:44:55.483+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:44:55.483+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:44:55.483+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:44:55.494+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:45:25.652+0000] {processor.py:157} INFO - Started process (PID=23078) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:45:25.653+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:45:25.654+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:45:25.654+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:45:25.656+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:45:25.656+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:45:25.656+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:45:25.667+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:45:55.760+0000] {processor.py:157} INFO - Started process (PID=23079) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:45:55.761+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:45:55.762+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:45:55.762+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:45:55.764+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:45:55.764+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:45:55.764+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:45:55.775+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.019 seconds
+[2023-11-28T10:46:25.942+0000] {processor.py:157} INFO - Started process (PID=23080) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:46:25.943+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:46:25.944+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:46:25.944+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:46:25.946+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:46:25.945+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:46:25.946+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:46:25.957+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:46:56.121+0000] {processor.py:157} INFO - Started process (PID=23081) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:46:56.122+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:46:56.123+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:46:56.123+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:46:56.125+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:46:56.125+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:46:56.125+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:46:56.136+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:47:26.294+0000] {processor.py:157} INFO - Started process (PID=23082) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:47:26.295+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:47:26.296+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:47:26.295+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:47:26.297+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:47:26.297+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:47:26.297+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:47:26.308+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds
+[2023-11-28T10:47:56.466+0000] {processor.py:157} INFO - Started process (PID=23083) to work on /home/ubuntu/airflow/dags
+[2023-11-28T10:47:56.468+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-11-28T10:47:56.469+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:47:56.468+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-11-28T10:47:56.470+0000] {logging_mixin.py:154} INFO - [2023-11-28T10:47:56.470+0000] {dagbag.py:323} INFO - File /home/ubuntu/airflow/dags assumed to contain no DAGs. Skipping.
+[2023-11-28T10:47:56.470+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags
+[2023-11-28T10:47:56.481+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.018 seconds

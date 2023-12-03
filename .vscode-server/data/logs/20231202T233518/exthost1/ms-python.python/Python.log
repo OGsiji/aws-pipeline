@@ -1,0 +1,10 @@
+2023-12-02 23:35:26.660 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-02 23:35:26.660 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-02 23:35:26.660 [info] Experiment 'pythonTestAdapter' is active
+2023-12-02 23:35:26.660 [info] Default formatter is set to null for workspace /home/ubuntu
+2023-12-02 23:35:26.662 [info] Test server listening.
+2023-12-02 23:35:26.721 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-12-02 23:35:26.861 [info] Python interpreter path: /usr/bin/python3
+2023-12-02 23:35:29.164 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-02 23:35:29.164 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-02 23:35:30.731 [info] Starting Pylance language server.

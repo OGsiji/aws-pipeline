@@ -1,0 +1,17 @@
+2023-12-01 19:30:54.319 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-01 19:30:54.319 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-01 19:30:54.319 [info] Experiment 'pythonTestAdapter' is active
+2023-12-01 19:30:54.319 [info] Default formatter is set to null for workspace /home/ubuntu
+2023-12-01 19:30:54.334 [info] Test server listening.
+2023-12-01 19:30:54.518 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-12-01 19:30:54.567 [info] Python interpreter path: /usr/bin/python3
+2023-12-01 19:30:55.502 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key autoSelectedWorkspacePythonInterpreter-/home/ubuntu
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key autoSelectedWorkspacePythonInterpreter-/home/ubuntu
+2023-12-01 19:30:56.392 [warning] Retry failed, storage update failed for key autoSelectedWorkspacePythonInterpreter-/home/ubuntu
+2023-12-01 19:30:58.327 [info] Starting Pylance language server.

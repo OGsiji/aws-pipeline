@@ -1,0 +1,41 @@
+[2023-12-01T14:26:58.003+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zillow_analytics_dag.tsk_is_file_in_s3_available manual__2023-12-01T14:26:49.149185+00:00 [queued]>
+[2023-12-01T14:26:58.011+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zillow_analytics_dag.tsk_is_file_in_s3_available manual__2023-12-01T14:26:49.149185+00:00 [queued]>
+[2023-12-01T14:26:58.011+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-01T14:26:58.026+0000] {taskinstance.py:1382} INFO - Executing <Task(S3KeySensor): tsk_is_file_in_s3_available> on 2023-12-01 14:26:49.149185+00:00
+[2023-12-01T14:26:58.030+0000] {standard_task_runner.py:57} INFO - Started process 35828 to run task
+[2023-12-01T14:26:58.034+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'zillow_analytics_dag', 'tsk_is_file_in_s3_available', 'manual__2023-12-01T14:26:49.149185+00:00', '--job-id', '57', '--raw', '--subdir', '/home/ubuntu/airflow/dags', '--cfg-path', '/tmp/tmpri0_lxi2']
+[2023-12-01T14:26:58.035+0000] {standard_task_runner.py:85} INFO - Job 57: Subtask tsk_is_file_in_s3_available
+[2023-12-01T14:26:58.069+0000] {task_command.py:416} INFO - Running <TaskInstance: zillow_analytics_dag.tsk_is_file_in_s3_available manual__2023-12-01T14:26:49.149185+00:00 [running]> on host ip-172-31-24-255.us-west-2.compute.internal
+[2023-12-01T14:26:58.139+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='myemail@domain.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zillow_analytics_dag' AIRFLOW_CTX_TASK_ID='tsk_is_file_in_s3_available' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T14:26:49.149185+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-01T14:26:49.149185+00:00'
+[2023-12-01T14:26:58.140+0000] {s3.py:106} INFO - Poking for key : s3://myawsbucket-new/response_data_01122023142651.csv
+[2023-12-01T14:26:58.145+0000] {base.py:73} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2023-12-01T14:26:58.145+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='aws_s3_conn', conn_type='aws') credentials retrieved from login and password.
+[2023-12-01T14:26:58.811+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 144, in execute
+    super().execute(context)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/usr/local/lib/python3.10/dist-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 137, in poke
+    return self._check_key(self.bucket_key)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 125, in _check_key
+    obj = self.hook.head_object(key, bucket_name)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 135, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 89, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 884, in head_object
+    raise e
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 879, in head_object
+    return self.get_conn().head_object(Bucket=bucket_name, Key=key)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/botocore/client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/botocore/client.py", line 1009, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (403) when calling the HeadObject operation: Forbidden
+[2023-12-01T14:26:58.815+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=zillow_analytics_dag, task_id=tsk_is_file_in_s3_available, execution_date=20231201T142649, start_date=20231201T142658, end_date=20231201T142658
+[2023-12-01T14:26:58.827+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 57 for task tsk_is_file_in_s3_available (An error occurred (403) when calling the HeadObject operation: Forbidden; 35828)
+[2023-12-01T14:26:58.848+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-01T14:26:58.860+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

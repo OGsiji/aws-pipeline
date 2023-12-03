@@ -1,0 +1,39 @@
+2023-12-01 12:42:27.117 [info] Log level: Info
+2023-12-01 12:42:27.117 [info] Validating found git in: "git"
+2023-12-01 12:42:27.117 [info] Using git "2.34.1" from "git"
+2023-12-01 12:42:27.117 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-01 12:42:27.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:42:27.117 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 12:42:27.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:42:27.117 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 12:42:27.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:42:27.117 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 12:42:27.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:42:27.117 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 12:42:27.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:42:27.117 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 12:42:27.118 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:42:27.118 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 12:42:27.118 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:42:27.118 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-01 12:42:27.118 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:43:07.805 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-01 12:43:07.805 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 12:43:11.831 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 12:43:11.831 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 14:20:44.001 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-01 14:20:44.001 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 14:22:07.387 [warning] Failed to get repository realpath for: "/home/ubuntu/.vscode-server/extensions/.5dcd7789-0025-4351-aada-eac8c1d229f9/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_frame_eval/". Error: ENOENT: no such file or directory, realpath '/home/ubuntu/.vscode-server/extensions/.5dcd7789-0025-4351-aada-eac8c1d229f9/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_frame_eval/'
+2023-12-01 14:22:07.396 [warning] Failed to get repository realpath for: "/home/ubuntu/.vscode-server/extensions/.5dcd7789-0025-4351-aada-eac8c1d229f9/pythonFiles/lib/python/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/". Error: ENOENT: no such file or directory, realpath '/home/ubuntu/.vscode-server/extensions/.5dcd7789-0025-4351-aada-eac8c1d229f9/pythonFiles/lib/python/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/'
+2023-12-01 14:22:17.264 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-01 14:22:17.264 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 14:22:17.604 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-01 14:22:17.604 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 14:23:00.954 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-01 14:23:00.955 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 14:24:07.694 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-01 14:24:07.694 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 14:31:34.074 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-01 14:31:34.074 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-01 15:07:55.699 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-01 15:07:55.699 [info] fatal: not a git repository (or any of the parent directories): .git
