@@ -6760,3 +6760,38 @@
 [2023-12-03T23:10:10.349+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:10:10.348+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-03T23:10:10.371+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:10:10.371+0000] {dag.py:3722} INFO - Setting next_dagrun for zillow_analytics_dag to 2023-12-03T00:00:00+00:00, run_after=2023-12-04T00:00:00+00:00
 [2023-12-03T23:10:10.395+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.176 seconds
+[2023-12-03T23:10:40.511+0000] {processor.py:157} INFO - Started process (PID=50544) to work on /home/ubuntu/airflow/dags
+[2023-12-03T23:10:40.512+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-12-03T23:10:40.514+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:10:40.514+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-12-03T23:10:40.528+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zillow_analytics_dag']) retrieved from /home/ubuntu/airflow/dags
+[2023-12-03T23:10:40.632+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:10:40.632+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-03T23:10:40.655+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:10:40.654+0000] {dag.py:3722} INFO - Setting next_dagrun for zillow_analytics_dag to 2023-12-03T00:00:00+00:00, run_after=2023-12-04T00:00:00+00:00
+[2023-12-03T23:10:40.678+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.170 seconds
+[2023-12-03T23:11:10.796+0000] {processor.py:157} INFO - Started process (PID=50634) to work on /home/ubuntu/airflow/dags
+[2023-12-03T23:11:10.797+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-12-03T23:11:10.799+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:11:10.799+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-12-03T23:11:10.813+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zillow_analytics_dag']) retrieved from /home/ubuntu/airflow/dags
+[2023-12-03T23:11:10.918+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:11:10.918+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-03T23:11:10.940+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:11:10.940+0000] {dag.py:3722} INFO - Setting next_dagrun for zillow_analytics_dag to 2023-12-03T00:00:00+00:00, run_after=2023-12-04T00:00:00+00:00
+[2023-12-03T23:11:10.962+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.170 seconds
+[2023-12-03T23:11:41.080+0000] {processor.py:157} INFO - Started process (PID=50656) to work on /home/ubuntu/airflow/dags
+[2023-12-03T23:11:41.081+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-12-03T23:11:41.082+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:11:41.082+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-12-03T23:11:41.097+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zillow_analytics_dag']) retrieved from /home/ubuntu/airflow/dags
+[2023-12-03T23:11:41.203+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:11:41.202+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-03T23:11:41.224+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:11:41.224+0000] {dag.py:3722} INFO - Setting next_dagrun for zillow_analytics_dag to 2023-12-03T00:00:00+00:00, run_after=2023-12-04T00:00:00+00:00
+[2023-12-03T23:11:41.247+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.171 seconds
+[2023-12-03T23:12:11.366+0000] {processor.py:157} INFO - Started process (PID=50660) to work on /home/ubuntu/airflow/dags
+[2023-12-03T23:12:11.368+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-12-03T23:12:11.370+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:12:11.369+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-12-03T23:12:11.384+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zillow_analytics_dag']) retrieved from /home/ubuntu/airflow/dags
+[2023-12-03T23:12:11.489+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:12:11.488+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-03T23:12:11.509+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:12:11.509+0000] {dag.py:3722} INFO - Setting next_dagrun for zillow_analytics_dag to 2023-12-03T00:00:00+00:00, run_after=2023-12-04T00:00:00+00:00
+[2023-12-03T23:12:11.531+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.168 seconds
+[2023-12-03T23:12:41.650+0000] {processor.py:157} INFO - Started process (PID=50750) to work on /home/ubuntu/airflow/dags
+[2023-12-03T23:12:41.651+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags for tasks to queue
+[2023-12-03T23:12:41.653+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:12:41.653+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags
+[2023-12-03T23:12:41.667+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zillow_analytics_dag']) retrieved from /home/ubuntu/airflow/dags
+[2023-12-03T23:12:41.775+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:12:41.775+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-03T23:12:41.797+0000] {logging_mixin.py:154} INFO - [2023-12-03T23:12:41.797+0000] {dag.py:3722} INFO - Setting next_dagrun for zillow_analytics_dag to 2023-12-03T00:00:00+00:00, run_after=2023-12-04T00:00:00+00:00
+[2023-12-03T23:12:41.823+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags took 0.176 seconds
